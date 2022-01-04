@@ -1,0 +1,70 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        // Google Fonts
+
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap")
+
+        link(rel="stylesheet", href="index.css")
+        title Design System
+    body
+        .container 
+            h1 Design System
+
+            section#colors
+
+                h2.numbered-title <span>01</span> Colors
+                .flex
+                    div(style="flex-grow: 1;") 
+                        div.bg-dark.text-white(style="padding: 3rem 1rem 1rem; border: 1px solid white;") #0B0D17
+                        p <span class="text-light">RGB</span> 11, 13, 23
+                        p <span class="text-light">HSL</span> 230°, 35%, 7%
+                    div(style="flex-grow: 1;") 
+                        div.bg-light.text-dark(style="padding: 3rem 1rem 1rem; border: 1px solid white;") #0B0D17
+                        p <span class="text-light">RGB</span> 208, 214, 249
+                        p <span class="text-light">HSL</span> 231°, 77%, 90%
+                    div(style="flex-grow: 1;") 
+                        div.bg-white.text-dark(style="padding: 3rem 1rem 1rem; border: 1px solid white;") #FFFFFF
+                        p <span class="text-light">RGB</span> 255, 255, 255
+                        p <span class="text-light">HSL</span> 0°, 0%, 100%
+
+            section#typography(style="margin: 4rem 0")
+
+                h2.numbered-title <span>02</span> Typography
+                .flex
+                    div(style="flex-basis: 100%;")
+                        div 
+                            p.text-light Heading 1 - Bellefair Regular - 150px
+                            p.fs-900.ff-serif.uppercase Earth
+                        div 
+                            p.text-light Heading 2 - Bellefair Regular - 100px
+                            p.fs-800.ff-serif.uppercase Venus
+                        div 
+                            p.text-light Heading 3 - Bellefair Regular - 56px
+                            p.fs-700.ff-serif.uppercase Jupiter & Saturn
+                        div 
+                            p.text-light Heading 4 - Bellefair Regular - 32px
+                            p.fs-600.ff-serif.uppercase Uranus, Neptune & Pluto
+                        div 
+                            p.text-light Heading 5 - Barlow Condensed Regular - 28px - 4.75 Character Space
+                            p.text-light.fs-500.ff-sans-cond.uppercase.letter-spacing-1 So you want to travel to space
+
+                    div(style="flex-basis: 100%;")
+                        div
+                            p.text-light Subheading 1 - Bellefair Regular - 28px
+                            p.fs-500.ff-serif.uppercase 384,000 kms
+                        div
+                            p.text-light Subheading 2 - Barlow Condensed Regular - 14px - 2.35 Character Space
+                            p.fs-200.ff-sans-cond.uppercase.letter-spacing-3 Avg. Distance
+                        div
+                            p.text-light Nav Text - Barlow Condensed Regular - 16px - 2.7 Character Space
+                            p.fs-300.ff-sans-cond.uppercase.letter-spacing-2 Europa
+                        div
+                            p.text-light Body Text
+                            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
