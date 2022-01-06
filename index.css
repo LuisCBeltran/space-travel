@@ -118,10 +118,14 @@ select {
     gap: var(--gap, 1rem);
 }
 
+.flow > * + * {
+    margin-top: var(--flow-space,1rem);
+}
+
 .container {
     padding-inline: 2em;
     margin-inline: auto;
-    max-width: 60rem;
+    max-width: 80rem;
 }
 
 /* Accesibility */
@@ -137,36 +141,15 @@ select {
     border: 0;
 }
 
-.box {
-    background-color: lightblue;
-    padding: 3rem;
-}
-
 /* Colors */
 
-.bg-dark {
-    background-color: hsl( var(--clr-dark) );
-}
+.bg-dark { background-color: hsl( var(--clr-dark) ); }
+.bg-light { background-color: hsl( var(--clr-light) ); }
+.bg-white { background-color: hsl( var(--clr-white) ); }
 
-.bg-light {
-    background-color: hsl( var(--clr-light) );
-}
-
-.bg-white {
-    background-color: hsl( var(--clr-white) );
-}
-
-.text-dark {
-    color: hsl( var(--clr-dark) );
-}
-
-.text-light {
-    color: hsl( var(--clr-light) );
-}
-
-.text-white {
-    color: hsl( var(--clr-white) );
-}
+.text-dark { color: hsl( var(--clr-dark) ); }
+.text-light { color: hsl( var(--clr-light) ); }
+.text-white { color: hsl( var(--clr-white) ); }
 
 /* Typography */
 
